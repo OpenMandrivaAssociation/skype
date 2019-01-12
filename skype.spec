@@ -7,6 +7,7 @@ URL: https://web.skype.com/
 License: Public Domain
 Requires: xdg-utils
 Source0: https://forum.openmandriva.org/uploads/default/original/2X/e/e8f0505349809ece424d3ef4e8874508c2989561.svg
+BuildArch: noarch
 
 %description
 Chat with everyone from your Skype account without any plugin
@@ -16,7 +17,7 @@ Chat with everyone from your Skype account without any plugin
 %build
 
 %install
-mkdir -p %{buildroot}%{_datadir}/applications/ %{buildroot}%{_datadir}/icons
+mkdir -p %{buildroot}%{_datadir}/applications/ %{buildroot}%{_datadir}/icons/hicolor/scalable/apps
 cat >%{buildroot}%{_datadir}/applications/skype.desktop <<'EOF'
 [Desktop Entry]
 Comment=Chat with everyone from your Skype account without any plugin.
@@ -27,8 +28,8 @@ Terminal=false
 Type=Application
 Categories=Network;InstantMessaging;
 EOF
-cp -a %{S:0} %{buildroot}%{_datadir}/icons/skype.svg
+cp -a %{S:0} %{buildroot}%{_datadir}/icons/hicolor/scalable/apps/skype.svg
 
 %files
 %{_datadir}/applications/skype.desktop
-%{_datadir}/icons/skype.svg
+%{_datadir}/icons/hicolor/scalable/apps/skype.svg
