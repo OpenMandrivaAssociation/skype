@@ -1,5 +1,5 @@
 Name: skype
-Version:	8.48.0.51
+Version: 1.0
 Release: 2
 Group: Applications/Internet
 Summary: Chat with everyone from your Skype account without any plugin
