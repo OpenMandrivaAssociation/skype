@@ -1,13 +1,13 @@
 Name: skype
-Version:	8.51.0.92
-Release:	1
+Version:	1.0
+Release:	4
 Group: Applications/Internet
 Summary: Chat with everyone from your Skype account without any plugin
 URL: https://web.skype.com/
 License: Public Domain
 Requires: xdg-utils
 Requires: falkon
-Source0: https://forum.openmandriva.org/uploads/default/original/2X/e/e8f0505349809ece424d3ef4e8874508c2989561.svg
+Source0: e8f0505349809ece424d3ef4e8874508c2989561.svg
 BuildArch: noarch
 
 %description
