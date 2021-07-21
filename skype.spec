@@ -7,7 +7,7 @@ URL: https://web.skype.com/
 License: Public Domain
 Requires: xdg-utils
 Requires: falkon
-Source0: https://forum.openmandriva.org/uploads/default/original/2X/e/e8f0505349809ece424d3ef4e8874508c2989561.svg
+Source0: e8f0505349809ece424d3ef4e8874508c2989561.svg
 BuildArch: noarch
 
 %description
