@@ -1,6 +1,6 @@
 Name: skype
-Version:	1.0
-Release:	5
+Version:	8.109.0.209
+Release:	1
 Group: Applications/Internet
 Summary: Chat with everyone from your Skype account without any plugin
 URL: https://web.skype.com/
